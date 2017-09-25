@@ -1,0 +1,388 @@
+﻿
+<!DOCTYPE html>
+<html class="no-js" lang="zh-CN" itemscope="itemscope" itemtype="http://schema.org/WebPage"><!--头文件导入CSS路径-->
+<head>
+    <meta charset="UTF-8"><!--页面编码格式-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--格式名字 CSS限制头文件-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!--浏览器格式适应-->
+    <title>Myh个人站 &#8211; ——designXmaker</title> <!--标题-->
+    <meta name='robots' content='noindex,follow' /> <!--标题格式-->
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' /> <!--与搜索引擎关联项 （不让GOOGLE爬虫进来）-->
+    <link rel='dns-prefetch' href='//s.w.org' />同上
+    <link rel="alternate" type="application/rss+xml" title="Myh个人站 &raquo; Feed" href="http://47.95.12.229/feed/" /> <!--边框功能模块-->
+    <link rel="alternate" type="application/rss+xml" title="Myh个人站 &raquo; 评论Feed" href="http://47.95.12.229/comments/feed/" /> <!--边框评论模块-->
+    <script type="text/javascript">//脚本命令格式
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/47.95.12.229\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+    </script><!--脚本命令格式-->
+    <style type="text/css"> /*CSS代码格式*/
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important; /*显示：内联！*/
+            border: none !important; /*边界：无！重要*/
+            box-shadow: none !important; /*阴影框：无*/
+            height: 1em !important;/*高度：1em！重要*/
+            width: 1em !important;/*宽度：1em！重要*/
+            margin: 0 .07em !important;/*边缘：0。07em！重要*/
+            vertical-align: -0.1em !important; /*垂直对齐：-0.1em！重要*/
+            background: none !important;/*背景：无！重要*/
+            padding: 0 !important; /*填充：0！重要*/
+        }
+    </style><!--样式-->
+    <link rel='stylesheet' id='kadence_theme-css' href='http://47.95.12.229/wp-content/themes/virtue/assets/css/virtue.css?ver=306' type='text/css' media='all' />  <!--页面主题CSS格式导入-->
+    <link rel='stylesheet' id='virtue_skin-css' href='http://47.95.12.229/wp-content/themes/virtue/assets/css/skins/default.css' type='text/css' media='all' />  <!--页面内功CSS格式导入-->
+    <link rel='stylesheet' id='redux-google-fonts-virtue-css' href='http://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=1506344179' type='text/css' media='all' /> <!--搜索模块CSS格式导入-->
+    <script type='text/javascript' src='http://47.95.12.229/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script> <!--脚本格式格式导入-->
+    <script type='text/javascript' src='http://47.95.12.229/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script><!--脚本格式导入-->
+    <link rel='https://api.w.org/' href='http://47.95.12.229/wp-json/' /><!--格式脚本链接-->
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://47.95.12.229/xmlrpc.php?rsd" /> <!--页面生成格式导入-->
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://47.95.12.229/wp-includes/wlwmanifest.xml" /> <!--页面导入-->
+    <meta name="generator" content="WordPress 4.8.2" /> <!--WORDPRESS 版本号-->
+    <meta name="generator" content="WooCommerce 3.1.2" /><!--WOOCOMMERCE 商店购物插件版本号-->
+    <style type="text/css">/*页面 CSS 代码导入*/
+        #logo {
+            /*padding-top:*/ 25px;/*顶部填充*/
+        }
+
+        #logo {
+            padding-bottom: 10px;/*底部间隙*/ 
+        }
+
+        #logo {
+            margin-left: 0px;/*左边框*/
+        }
+
+        #logo {
+            margin-right: 0px;/*右边框*/
+        }
+
+        #nav-main {
+            margin-top: 40px;/*顶部边框*/
+        }
+
+        #nav-main {
+            margin-bottom: 10px;/*底部边框*/
+        }
+
+        .headerfont, .tp-caption {
+            font-family: Lato;/*字体类型*/ 
+        }
+
+        .topbarmenu ul li {
+            font-family: Lato;/*字体类型*/ 
+        }
+
+        #kadbreadcrumbs {/*php代码*/
+            font-family: Verdana, Geneva, sans-serif;/*字体类型*/ 
+        }
+
+        .contentclass, .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+            background: #000000;/*背景颜色*/
+        }
+
+        .topclass {
+            background: #000000;/*背景颜色*/
+        }
+
+        .headerclass {
+            background: #000000;/*背景颜色*/
+        }
+
+        .footerclass {
+            background: #000000;/*背景颜色*/
+        }
+
+        .kad-hidepostauthortop, .postauthortop {
+            display: none;/*展示*/
+        }
+
+        .product_item .product_details h5 {
+            text-transform: none;/*文本转换*/ 
+        }
+
+        .product_item .product_details h5 {
+            min-height: 40px;/*最小高度*/ 
+        }
+    </style>
+    <noscript>
+    <style>
+        .woocommerce-product-gallery {/*产品图库*/ 
+            opacity: 1 !important;/*不透明度*/ 
+        }
+    </style></noscript><!--样式-->
+    [if lt IE 9]>
+    <script src="http://47.95.12.229/wp-content/themes/virtue/assets/js/vendor/respond.min.js"></script>  <!--脚本格式导入-->
+    <![endif]
+    <style type="text/css" class="options-output">
+        header #logo a.brand, .logofont {
+            font-family: Lato; /*字体类型*/
+            line-height: 40px; /*行高*/
+            font-weight: 400; /*字体宽度*/
+            font-style: normal; /*字体样式*/
+            font-size: 32px; /*字体尺寸*/
+        }
+
+        .kad_tagline {
+            font-family: Lato; /*字体类型*/
+            line-height: 20px; /*行高*/
+            font-weight: 400; /*字体宽度*/
+            font-style: normal; /*字体样式*/
+            color: #444444; /*颜色*/
+            font-size: 14px; /*字体大小*/
+        }
+
+        .product_item .product_details h5 {
+            font-family: Lato; /*字体类型*/
+            line-height: 20px; /*行高*/
+            font-weight: 700; /*字体宽度*/
+            font-style: normal; /*字体样式*/
+            font-size: 16px; /*字体大小*/
+        }
+
+        h1 {/*标题 1*/
+            font-family: Lato; /*字体类型*/
+            line-height: 40px; /*行高*/
+            font-weight: 400; /*字体宽度*/
+            font-style: normal; /*字体样式*/
+            font-size: 38px; /*字体大小*/
+        }
+
+        h2 { /*标题2*/
+            font-family: Lato; /*字体类型*/
+            line-height: 40px; /*行高*/
+            font-weight: normal; /*字体宽度*/
+            font-style: normal; /*字体样式*/
+            font-size: 32px; /*字体大小*/
+        }
+
+        h3 { /*标题3*/
+            font-family: Lato; /*字体类型*/
+            line-height: 40px; /*行高*/
+            font-weight: 400; /*字体宽度*/
+            font-style: normal; /*字体样式*/
+            font-size: 28px; /*字体大小*/
+        }
+
+        h4 { /*标题4*/
+            font-family: Lato; /*字体类型*/
+            line-height: 40px; /*行高*/
+            font-weight: 400; /*字体宽度*/
+            font-style: normal; /*字体样式*/
+            font-size: 24px; /*字体大小*/
+        }
+
+        h5 { /*标题5*/
+            font-family: Lato; /*字体类型*/
+            line-height: 24px; /*行高*/
+            font-weight: 700; /*字体样式*/
+            font-style: normal; /*字体样式*/
+            font-size: 18px; /*字体大小*/
+        }
+
+        body {<!--元素定义文档的主体-->
+            font-family: Verdana, Geneva, sans-serif; /*字体类型*/
+            line-height: 20px; /*行高*/
+            font-weight: 400; /*字体宽度*/
+            font-style: normal; /*字体样式*/
+            font-size: 14px; /*字体大小*/
+        }
+
+        #nav-main ul.sf-menu a {
+            font-family: Lato; /*字体类型*/
+            line-height: 18px; /*行高*/
+            font-weight: 400; /*字体宽度*/
+            font-style: normal;
+            font-size: 12px; /*字体大小*/
+        }
+
+        #nav-second ul.sf-menu a {
+            font-family: Lato; /*字体类型*/
+            line-height: 22px; /*行高*/
+            font-weight: 400; /*字体宽度*/
+            font-style: normal; /*字体样式*/
+            font-size: 18px; /*字体大小*/
+        }
+
+        .kad-nav-inner .kad-mnav, .kad-mobile-nav .kad-nav-inner li a, .nav-trigger-case {
+            font-family: Lato; /*字体类型*/
+            line-height: 20px; /*行高*/
+            font-weight: 400; /*字体宽度*/
+            font-style: normal; /*字体样式*/
+            font-size: 16px; /*字体大小*/
+        }
+    </style>
+</head>
+
+<body class="home blog wide"> <!--BANNER位置CSS格式-->
+    <div id="kt-skip-link"><a href="#content">Skip to Main Content</a></div>  <!--BANNER位置标题-->
+    <div id="wrapper" class="container"><!--BANNER位置格式-->
+        <header class="banner headerclass" itemscope itemtype="http://schema.org/WPHeader"> <!--BANNER位置 CSS-->
+            <div class="container"><!--BANNER位置格式-->
+                <div class="row"><!--BANNER位置格式-->
+                    <div class="col-md-4 clearfix kad-header-left"><!--BANNER位置CSS格式-->
+                        <div id="logo" class="logocase"><!--LOGO位置格式-->
+                            <a class="brand logofont" href="http://47.95.12.229/"> <!--链接-->
+                                Myh个人站
+                            </a>
+                        </div> <!-- Close #logo -->
+                    </div><!-- close logo span -->
+
+                </div> <!-- Close Row -->
+
+            </div> <!-- Close Container -->
+        </header>
+        <div class="wrap contentclass" role="document"><!--内容页面CSS格式-->
+
+            <div class="container"><div class="woocommerce"></div></div><div class="sliderclass carousel_outerrim kad-desktop-slider"><!--内容页面CSS格式-->
+                <div id="imageslider" class="loading"><!--内容页面CSS格式-->
+                    <div class="carousel_slider_outer fredcarousel fadein-carousel" style="overflow:hidden; max-width:1170px; height: 440px; margin-left: auto; margin-right:auto;">
+                        <div class="carousel_slider initcarouselslider" data-carousel-container=".carousel_slider_outer" data-carousel-transition="600" data-carousel-height="440" data-carousel-auto="true" data-carousel-speed="7000" data-carousel-id="carouselslider">
+                            <div class="carousel_gallery_item" style="float:left; display: table; position: relative; text-align: center; margin: 0; width:auto; height:440px;">
+                                <div class="carousel_gallery_item_inner" style="vertical-align: middle; display: table-cell;"><img src="http://47.95.12.229/wp-content/uploads/2017/09/01-1-1100x440.jpg" width="1100" height="440" alt="" />                      </div>
+                            </div>
+                            <div class="carousel_gallery_item" style="float:left; display: table; position: relative; text-align: center; margin: 0; width:auto; height:440px;">
+                                <div class="carousel_gallery_item_inner" style="vertical-align: middle; display: table-cell;"><img src="http://47.95.12.229/wp-content/uploads/2017/09/b5e253e6cce3f35741828a91297fb44c-587x440.gif" width="587" height="440" alt="" />                      </div>
+                            </div>
+                            <div class="carousel_gallery_item" style="float:left; display: table; position: relative; text-align: center; margin: 0; width:auto; height:440px;">
+                                <div class="carousel_gallery_item_inner" style="vertical-align: middle; display: table-cell;"><img src="http://47.95.12.229/wp-content/uploads/2017/09/timg-704x440.jpg" width="704" height="440" alt="" />                      </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div><!--CSS格式-->
+                        <a id="prevport-carouselslider" class="prev_carousel icon-arrow-left" href="#"></a><!--CSS格式-->
+                        <a id="nextport-carouselslider" class="next_carousel icon-arrow-right" href="#"></a><!--CSS格式-->
+                    </div> <!--fredcarousel-->
+                </div><!--Container-->
+            </div><!--sliderclass-->
+            <div id="content" class="container homepagecontent"><!--CSS格式-->
+                <div class="row"><!--CSS格式-->
+                    <div class="main col-lg-9 col-md-8" role="main"><!--CSS格式-->
+                        <div class="entry-content" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement"><!--CSS格式-->
+
+                            <div class="homecontent   postlist clearfix home-margin"><!--CSS格式-->
+                            </div>
+                            <div class="home-portfolio home-margin carousel_outerrim home-padding"><!--CSS格式-->
+                                <div class="clearfix"><h3 class="hometitle">1</h3></div><!--CSS格式-->
+                                <div class="home-margin fredcarousel"><!--CSS格式-->
+                                    <div id="carouselcontainer-portfolio" class="rowtight fadein-carousel"><!--CSS格式-->
+                                        <div id="portfolio-carousel" class="clearfix caroufedselclass initcaroufedsel clearfix" data-carousel-container="#carouselcontainer-portfolio" data-carousel-transition="700" data-carousel-scroll="1" data-carousel-auto="true" data-carousel-speed="9000" data-carousel-id="portfolio" data-carousel-md="3" data-carousel-sm="3" data-carousel-xs="2" data-carousel-ss="1">
+                                            <div class="tcol-lg-4 tcol-md-4 tcol-sm-4 tcol-xs-6 tcol-ss-12 kad_portfolio_item"><!--CSS格式-->
+                                                <div class="grid_item portfolio_item postclass"><!--CSS格式-->
+
+                                                    <div class="imghoverclass"><!--CSS格式-->
+                                                        <a href="http://47.95.12.229/portfolio/microdunio1-2/" title="Microdunio2" class="kad_portfolio_link"><!--文章链接-->
+                                                            <img src="http://47.95.12.229/wp-content/uploads/2017/09/01-1-366x366.jpg" alt="Microdunio2" width="366" height="366" class="lightboxhover" style="display: block;">
+                                                        </a>
+                                                    </div>
+                                                    <a href="http://47.95.12.229/portfolio/microdunio1-2/" class="portfoliolink"><!--文章链接-->
+                                                        <div class="piteminfo"><!--CSS格式-->
+                                                            <h5>Microdunio2</h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="tcol-lg-4 tcol-md-4 tcol-sm-4 tcol-xs-6 tcol-ss-12 kad_portfolio_item"><!--CSS格式-->
+                                                <div class="grid_item portfolio_item postclass"><!--CSS格式-->
+
+                                                    <div class="imghoverclass"><!--CSS格式-->
+                                                        <a href="http://47.95.12.229/portfolio/microdunio3/" title="Microdunio3" class="kad_portfolio_link"><!--文章链接-->
+                                                            <img src="http://47.95.12.229/wp-content/uploads/2017/09/timg-366x366.jpg" alt="Microdunio3" width="366" height="366" class="lightboxhover" style="display: block;">
+                                                        </a>
+                                                    </div>
+                                                    <a href="http://47.95.12.229/portfolio/microdunio3/" class="portfoliolink"><!--文章链接-->
+                                                        <div class="piteminfo">
+                                                            <h5>Microdunio3</h5><!--标题5-->
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="tcol-lg-4 tcol-md-4 tcol-sm-4 tcol-xs-6 tcol-ss-12 kad_portfolio_item">
+                                                <div class="grid_item portfolio_item postclass"><!--CSS格式-->
+
+                                                    <div class="imghoverclass"> <!--CSS格式-->
+                                                        <a href="http://47.95.12.229/portfolio/microdunio1/" title="Microdunio1" class="kad_portfolio_link"><!--文章链接-->
+                                                            <img src="http://47.95.12.229/wp-content/uploads/2017/09/b5e253e6cce3f35741828a91297fb44c-366x366.gif" alt="Microdunio1" width="366" height="366" class="lightboxhover" style="display: block;">
+                                                        </a>
+                                                    </div>
+                                                    <a href="http://47.95.12.229/portfolio/microdunio1/" class="portfoliolink"><!--文章链接-->
+                                                        <div class="piteminfo">
+                                                            <h5>Microdunio1</h5><!--标题5-->
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <a id="prevport-portfolio" class="prev_carousel icon-chevron-left" href="#"></a><!--CSS格式-->
+                                    <a id="nextport-portfolio" class="next_carousel icon-chevron-right" href="#"></a><!--CSS格式-->
+                                </div> <!-- fred Carousel-->
+                            </div> <!--featclass -->                 <div class="home-margin home-padding"><!--CSS格式-->
+                                <div class="rowtight homepromo"><!--CSS格式-->
+                                    <div class="tcol-lg-4 tcol-md-4 tcol-sm-4 tcol-xs-6 tcol-ss-12 home-iconmenu homeitemcount1"><!--图片-->
+                                        <a href="" target="_self" title="">
+                                            <img src="http://47.95.12.229/wp-content/uploads/2017/09/timg.jpg" /><!--图片-->
+                                        </a>
+                                    </div>
+                                    <div class="tcol-lg-4 tcol-md-4 tcol-sm-4 tcol-xs-6 tcol-ss-12 home-iconmenu homeitemcount2"><!--图片-->
+                                        <a href="" target="_self" title="">
+                                            <img src="http://47.95.12.229/wp-content/uploads/2017/09/b5e253e6cce3f35741828a91297fb44c.gif" /><!--图片-->
+                                        </a>
+                                    </div>
+                                    <div class="tcol-lg-4 tcol-md-4 tcol-sm-4 tcol-xs-6 tcol-ss-12 home-iconmenu homeitemcount3"><!--图片-->
+                                        <a href="" target="_self" title="">
+                                            <img src="http://47.95.12.229/wp-content/uploads/2017/09/01-1.jpg" /><!--图片-->
+                                        </a>
+                                    </div>
+                                </div> <!--homepromo -->
+                            </div>
+                        </div>
+                    </div><!-- /.main -->
+                    <aside class="col-lg-3 col-md-4 kad-sidebar" role="complementary" itemscope itemtype="http://schema.org/WPSideBar"><!--菜单格式-->
+                        <div class="sidebar"><!--CSS格式-->
+                        </div><!-- /.sidebar -->
+                    </aside><!-- /aside -->
+                </div><!-- /.row-->
+            </div><!-- /.content -->
+        </div><!-- /.wrap -->
+        <footer id="containerfooter" class="footerclass" itemscope itemtype="http://schema.org/WPFooter"><!--底部标签名-->
+            <div class="container"><!--CSS格式-->
+                <div class="row"><!--CSS格式-->
+                </div>
+                <div class="footercredits clearfix"><!--CSS格式-->
+
+                    <p>&copy; 2017 Myh个人站 - from Minyh <a href="http://47.95.12.229/" target="_blank"> Minyh index</a></p> <!--底部文本版权链接与位置-->
+                </div>
+
+            </div>
+
+        </footer><!--页脚-->
+    </div><!--Wrapper-->
+
+    <script type='text/javascript'>//脚本格式导入
+/* <![CDATA[ *//*PHP变量*/
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"\u67e5\u770b\u8d2d\u7269\u8f66","cart_url":"http:\/\/47.95.12.229","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+    </script>
+    <script type='text/javascript' src='//47.95.12.229/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.1.2'></script><!--脚本格式导入-->
+    <script type='text/javascript' src='//47.95.12.229/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script><!--脚本格式导入-->
+    <script type='text/javascript' src='//47.95.12.229/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script><!--脚本格式导入-->
+    <script type='text/javascript'>//脚本格式
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> *//*PHP变量*/
+    </script>
+    <script type='text/javascript' src='//47.95.12.229/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.1.2'></script><!--脚本格式导入-->
+    <script type='text/javascript'>//脚本格式导入
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments_adf5b8ef7380a6d58d581d5554cf6639"};
+/* ]]> *//*PHP变量*/
+    </script>
+    <script type='text/javascript' src='//47.95.12.229/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.1.2'></script><!--脚本格式导入-->
+    <script type='text/javascript' src='http://47.95.12.229/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script><!--脚本格式导入-->
+    <script type='text/javascript' src='http://47.95.12.229/wp-includes/js/masonry.min.js?ver=3.3.2'></script><!--脚本格式导入-->
+    <script type='text/javascript' src='http://47.95.12.229/wp-content/themes/virtue/assets/js/min/plugins-min.js?ver=306'></script><!--脚本格式导入-->
+    <script type='text/javascript' src='http://47.95.12.229/wp-content/themes/virtue/assets/js/main.js?ver=306'></script><!--脚本格式导入-->
+    <script type='text/javascript' src='http://47.95.12.229/wp-content/themes/virtue/assets/js/min/kt-add-to-cart-variation-min.js?ver=4.8.2'></script><!--脚本格式导入-->
+    <script type='text/javascript' src='http://47.95.12.229/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script><!--脚本格式导入-->
+</body><!--元素定义文档的主体-->
+</html>
